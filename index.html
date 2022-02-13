@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apptimus Exam</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+      <form id="my-form" >
+        <ul>
+         <li>
+           <label for="BannerImgUrl">Banner Img URL:</label>
+           <input type="url" id="BannerImgUrl" name="BannerImgUrl">
+         </li>
+         <li>
+           <label for="RedirectLink">Redirect Link:</label>
+           <input type="url" id="RedirectLink" name="RedirectLink">
+         </li>
+         <li class="button">
+          <button type="submit" >Submit</button>
+        </li>
+        </ul>
+       </form>
+       <button id="save" type="button" onclick="saveData()">Save</button>
+       <button id="delete" type="button" onclick="deleteData()">Delete</button>
+       <div id="banners-list"></div>
+    </div>   
+  </body>
+</html>
+
